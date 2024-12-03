@@ -1,0 +1,1 @@
+ch.hsr.geohash.GeoHash

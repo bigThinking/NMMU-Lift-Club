@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LiftClub</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_log_in">NMMU Lift Club</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="base_uri">http://lift_club.csdev.nmmu.ac.za:8060</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_view_ride_details">ViewRideDetails</string>
+</resources>

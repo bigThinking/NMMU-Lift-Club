@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\s210036575\.gradle\caches\modules-2\files-2.1\org.glassfish.tyrus.bundles\tyrus-standalone-client\1.5\e367045e588721f4dacafdd194ba98ef7de72dff\tyrus-standalone-client-1.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e367045e588721f4dacafdd194ba98ef7de72dff">
+        <dex dex="C:\Users\s210036575\Downloads\tyrus-client-android-test-master\tyrus-client-android-test-master\build\intermediates\pre-dexed\debug\tyrus-standalone-client-1.5-cee653585dd71f6a40d7409437316c301b2feda1.jar" />
+    </item>
+
+</items>

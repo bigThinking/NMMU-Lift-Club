@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="za.ac.nmmu.lift_club.CommentActivity">
+
+    <android.support.v7.widget.Toolbar
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/toolbar1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id = "@+id/user_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bad_profile_pic_2"
+        android:layout_below="@+id/toolbar1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id = "@+id/car_pic1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/scionxdoutline640"
+        android:layout_alignTop="@+id/user_pic"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_rideRating"
+        android:layout_below="@+id/user_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:stepSize="1"
+        android:numStars="5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Comment"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/rb_rideRating"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/edtComment"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btnSave3"
+        android:layout_below="@+id/edtComment"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

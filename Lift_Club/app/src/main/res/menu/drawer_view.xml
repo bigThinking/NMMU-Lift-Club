@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_activities"
+            android:icon="@drawable/ic_action_list"
+            android:title="Activities" />
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/ic_action_search"
+            android:title="Find a lift" />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/ic_action_add_circle_outline"
+            android:title="Offer a lift" />
+        <item
+            android:id="@+id/nav_create_route"
+            android:icon="@drawable/ic_action_map"
+            android:title="Create a route" />
+
+        <item
+            android:id="@+id/nav_save"
+            android:icon="@drawable/ic_action_pin_drop"
+            android:title="Save current position" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_exit_to_app"
+            android:title="Log-out" />
+    </group>
+</menu>

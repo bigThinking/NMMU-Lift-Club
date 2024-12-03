@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgpCampusDirr1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To campus"
+            android:id="@+id/rbtnTo1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="From campus"
+            android:id="@+id/rbtnFrom1"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:checked="false"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/rgpCampusDirr1"
+            android:layout_toEndOf="@+id/rgpCampusDirr1" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select campus :"
+        android:id="@+id/textView"
+        android:layout_below="@+id/rgpCampusDirr1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnCampus1"
+        android:layout_below="@+id/rgpCampusDirr1"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_alignTop="@+id/textView"
+        android:spinnerMode="dropdown" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide map"
+        android:id="@+id/cbxHideMap"
+        android:checked="false"
+        android:layout_below="@+id/spnCampus1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/spnCampus1"
+        android:layout_toStartOf="@+id/spnCampus1"
+        android:layout_marginLeft="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/btnStart"
+        android:layout_below="@+id/cbxHideMap"
+        android:layout_centerHorizontal="true"
+        android:background="@color/nmmu_blue"
+        android:textColor="@color/window_background"/>
+</RelativeLayout>

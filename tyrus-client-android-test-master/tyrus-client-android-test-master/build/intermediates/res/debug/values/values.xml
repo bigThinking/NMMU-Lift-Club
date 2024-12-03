@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/s210036575/Downloads/tyrus-client-android-test-master/tyrus-client-android-test-master/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">AndroidClientTest</string>
+    <string name="press_me">Press me!</string>
+</resources>
